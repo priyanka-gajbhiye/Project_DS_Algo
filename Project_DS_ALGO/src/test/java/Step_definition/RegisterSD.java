@@ -42,6 +42,7 @@ public class RegisterSD {
 	public void the_user_enters_invalid_username() throws Exception {
 	    RG.invalidusernameonly();
 	    RG.registerclick();
+	    Thread.sleep(1000);
 	    RG.takescreenshot("InvalidUsername.png");
 	}
 

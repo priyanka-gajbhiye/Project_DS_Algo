@@ -50,7 +50,7 @@ public class Register {
 	public void invalidusernameonly() throws Exception {
 	   	String excelusername=RER.getregisterusername(1); 	
 	   	username.sendKeys(excelusername);
-	   	Thread.sleep(3000);	
+	   	Thread.sleep(2000);	
 	   }
 	public void registerclick() throws Exception {
 		registerbtn.click();
@@ -80,7 +80,7 @@ public class Register {
 	   	password.sendKeys(excelpassword);
 	   	String excelconfirmpassword=RER.getregisterconfirmpassword(4); 	
 	   	confirmpassword.sendKeys(excelconfirmpassword);
-	   	Thread.sleep(3000);	
+	   	Thread.sleep(2000);	
 	   }
 	public void signout() {
 		Signout.click();
